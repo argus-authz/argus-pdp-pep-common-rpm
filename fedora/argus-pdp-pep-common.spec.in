@@ -20,9 +20,7 @@ BuildRequires: maven
 
 Requires: java
 Requires: argus-pep-common
-Requires: emi-trustmanager
-Requires: voms-api-java
-Requires: bouncycastle
+Requires: emi-canl
 
 %description 
 Argus PDP and PEP Server shared library.
