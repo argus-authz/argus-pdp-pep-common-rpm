@@ -19,7 +19,6 @@ BuildRequires: java-devel
 BuildRequires: maven
 
 Requires: java
-Requires: argus-pep-common
 Requires: canl-java
 
 %description 
@@ -53,7 +52,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc README.md doc/RELEASE-NOTES doc/COPYRIGHT doc/LICENSE
 
 %changelog
-* Thu Nov 8 2012 Valery Tschopp <valery.tschopp@switch.ch> 1.4.0-1 
+* Thu Nov 18 2012 Valery Tschopp <valery.tschopp@switch.ch> 1.4.0-1 
 - Upstream version 1.4.0 for EMI-3.
 
 * Tue Jul 31 2012 Valery Tschopp <valery.tschopp@switch.ch> 1.3.2-1
