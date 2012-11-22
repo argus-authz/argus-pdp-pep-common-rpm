@@ -20,7 +20,7 @@ BuildRequires: maven
 
 Requires: java
 Requires: argus-pep-common
-Requires: emi-canl
+Requires: canl-java
 
 %description 
 Argus PDP and PEP Server shared library.
