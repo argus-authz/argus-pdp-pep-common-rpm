@@ -67,3 +67,9 @@ git_source:
 	(cd $(name) && make dist)
 	mkdir -p $(rpmbuild_dir)/SOURCES
 	cp $(name)/$(name)-$(version).tar.gz $(rpmbuild_dir)/SOURCES
+
+
+clean_repo:
+	@echo "Deleting Maven local repo /tmp/m2-repository"
+	test -d /tmp/m2-repository && rm -fr /tmp/m2-repository
+
