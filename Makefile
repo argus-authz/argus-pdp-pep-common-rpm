@@ -71,5 +71,5 @@ git_source:
 
 clean_repo:
 	@echo "Deleting Maven local repo /tmp/m2-repository"
-	test -d /tmp/m2-repository && rm -fr /tmp/m2-repository
+	test ! -d /tmp/m2-repository || rm -fr /tmp/m2-repository
 
