@@ -5,7 +5,7 @@ Name: argus-pdp-pep-common
 
 Version: @@SPEC_VERSION@@
 Release: @@SPEC_RELEASE@@%{?dist}
-Summary: Argus PDP and PEP Server shared library (internal)
+Summary: Argus PDP and PEP Server shared library
 
 Group: System Environment/Libraries
 License: ASL 2.0
@@ -52,6 +52,9 @@ rm -rf $RPM_BUILD_ROOT
 %doc README.md doc/RELEASE-NOTES doc/COPYRIGHT doc/LICENSE
 
 %changelog
+* Wed May 28 2014 Valery Tschopp <valery.tschopp@switch.ch> 1.4.1-0
+- Upstream version 1.4.1 for EMI-3 (RC1)
+
 * Tue Jan 29 2013 Valery Tschopp <valery.tschopp@switch.ch> 1.4.0-2 
 - Upstream version 1.4.0 for EMI-3 (RC2)
 

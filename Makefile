@@ -18,8 +18,8 @@
 # RPM packaging
 #
 name = argus-pdp-pep-common
-version = 1.4.0
-release = 2
+version = 1.4.1
+release = 0
 
 dist_url = http://argus-authz.github.com/$(name)/distrib/$(name)-$(version).tar.gz
 
