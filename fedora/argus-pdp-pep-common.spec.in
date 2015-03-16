@@ -52,6 +52,9 @@ rm -rf $RPM_BUILD_ROOT
 %doc README.md doc/RELEASE-NOTES doc/COPYRIGHT doc/LICENSE
 
 %changelog
+* Mon Mar 16 2015 Andrea Ceccanti <andrea.ceccanti@cnaf.infn.it> 1.4.1-1
+- Official packaging for upstream 1.4.1 release
+
 * Wed May 28 2014 Valery Tschopp <valery.tschopp@switch.ch> 1.4.1-0
 - Upstream version 1.4.1 for EMI-3 (RC1)
 
